@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+        NAMA                : NOERKHALIDAH MISKIYAH
+        KELAS / NIM         : IF-2 / 10118077
+        DESKRIPSI           : MEMBUAT PROJECT APLIKASI MONITORY
+        TANGGAL PENGERJAAN  : 3 MEI 2021
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Say_Hai">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="20sp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_yellow"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Oke"
+        android:textSize="14sp" />
+
+</RelativeLayout>

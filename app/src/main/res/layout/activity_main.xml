@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+        NAMA                : NOERKHALIDAH MISKIYAH
+        KELAS / NIM         : IF-2 / 10118077
+        DESKRIPSI           : MEMBUAT PROJECT APLIKASI MONITORY
+        TANGGAL PENGERJAAN  : 3 MEI 2021
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_get_start_timitory" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/monitory_membantu_anda_n_mengontrol_hp_anak"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="250dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_yellow"
+        android:text="@string/mulai"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="440dp"
+        android:onClick="login"/>
+
+</RelativeLayout>

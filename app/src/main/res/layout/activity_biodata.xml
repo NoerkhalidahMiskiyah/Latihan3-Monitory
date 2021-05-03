@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+        NAMA                : NOERKHALIDAH MISKIYAH
+        KELAS / NIM         : IF-2 / 10118077
+        DESKRIPSI           : MEMBUAT PROJECT APLIKASI MONITORY
+        TANGGAL PENGERJAAN  : 3 MEI 2021
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Biodata">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Nama Panggilan Kamu"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:ems="16"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="Contoh : Budi" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Umur Kamu"
+        android:textSize="25sp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:ems="16"
+        android:hint="Contoh : 12"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_yellow"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textSize="14sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:onClick="sendMessage"/>
+
+</RelativeLayout>
